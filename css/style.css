@@ -301,7 +301,7 @@ header div.right .menu-logo {
 	padding-top: 120px;
 	padding-bottom: 130px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 2;
 	grid-column-gap: 20px;
 	align-items: center;
@@ -444,7 +444,7 @@ header div.right .menu-logo {
 
 .footer-container-top {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(12, 1fr);
 	grid-column-gap: 20px;
 	padding-bottom: 32px;
 }
