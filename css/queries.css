@@ -88,6 +88,12 @@
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: repeat(2, auto);
 	}
+	#footer .social-connect-container {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 6;
+	}
 	.footer-container-top .links-1 {
 		grid-row-start: 1;
 		grid-row-end: 2;
