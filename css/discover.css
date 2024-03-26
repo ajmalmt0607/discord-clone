@@ -91,6 +91,7 @@ button {
 /**********************/
 /* DISCOVER SEARCHBAR SECTION 1022px */
 /*********************/
+
 #discover-server .search-bar-container {
 	display: flex;
 	justify-content: space-between;
@@ -111,6 +112,9 @@ button {
 	border: none;
 }
 #discover-server .search-bar-input-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-right: 16px;
 	padding-right: 16px;
 	padding-top: 12px;
@@ -119,6 +123,9 @@ button {
 	background-color: #7b7a7a14;
 	width: 100%;
 }
+#discover-server .search-bar-input-container i {
+	margin-left: 10px;
+}
 #discover-server .search-bar-container #search-btn {
 	background-color: #5865f2;
 	padding: 16px;
@@ -126,7 +133,15 @@ button {
 	border: none;
 	cursor: pointer;
 }
+#clear-search {
+	display: none;
+	font-size: 20px;
+	background-color: #7b7a7a14;
+}
 
+#clear-search.active {
+	display: block;
+}
 .category-botton-980-container {
 	padding: 0 40px;
 	max-width: 940px;

@@ -161,7 +161,22 @@ fetch("data/discord_servers.json")
 function clearSearchInput() {
 	document.getElementById("search-input").value = "";
 }
+const searchInput = document.getElementById("search-input");
+const clearSearch = document.getElementById("clear-search");
 
+searchInput.addEventListener("input", function () {
+	if (searchInput.value.trim() !== "") {
+		clearSearch.classList.add("active");
+	} else {
+		clearSearch.classList.remove("active");
+	}
+});
+
+clearSearch.addEventListener("click", function (e) {
+	e.preventDefault();
+	searchInput.value = "";
+	clearSearch.classList.remove("active");
+});
 /////////////////////////////
 // Filter servers by category
 /////////////////////////////
