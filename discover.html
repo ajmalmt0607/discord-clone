@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Discord Servers - Home</title>
+		<title>Discord | Your Place to Talk and Hang Out</title>
 		<link
 			rel="shortcut icon"
 			href="./images/logos/discord.svg"
@@ -20,14 +20,25 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/discover.css" />
 		<link rel="stylesheet" href="css/queries.css" />
+		<link rel="stylesheet" href="css/discover_queries.css" />
+		<script
+			src="https://kit.fontawesome.com/167e2d512b.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<section class="discover-blue-home">
 			<div class="discord-left-background">
-				<img src="images/discord-left-background.svg" alt="" />
+				<img
+					src="images/discord-left-background.svg"
+					alt="background-image"
+				/>
 			</div>
 			<div class="discord-right-background">
-				<img src="images/discord-right-background.svg" alt="" />
+				<img
+					src="images/discord-right-background.svg"
+					alt="background-image"
+				/>
 			</div>
 			<!-- <div class="discord-right-background">
 				<img src="images/discord-left-background.svg" alt="" />
@@ -60,7 +71,7 @@
 						<span class="menu-logo"
 							><img
 								src="images/logos/625846fc39fbe53385840143_1 (3).svg"
-								alt="" /></span
+								alt="menu-logo" /></span
 					></a>
 				</div>
 			</header>
@@ -82,7 +93,9 @@
 					</div>
 					<span class="close-icon">
 						<a href="#" class="close-button"
-							><img src="images/logos/close-menu.svg" alt=""
+							><img
+								src="images/logos/close-menu.svg"
+								alt="close-logo"
 						/></a>
 					</span>
 				</div>
@@ -96,7 +109,7 @@
 							<span class="arrow-icon"
 								><img
 									src="images/logos/icons8-forward-32.png"
-									alt=""
+									alt="arrow-icon"
 								/> </span
 						></a>
 					</li>
@@ -106,7 +119,9 @@
 				</ul>
 				<div class="menu-bottom-button">
 					<span class="menu-bottom-button-img"
-						><img src="./images/logos/download-white.png" alt=""
+						><img
+							src="./images/logos/download-white.png"
+							alt="download-white-logo"
 					/></span>
 					<a href="#" class="">Download</a>
 				</div>
@@ -117,25 +132,161 @@
 			<div class="wrapper-2">
 				<div class="search-bar-container">
 					<div class="search-bar-input-container">
-						<input type="text" placeholder="Explore Communities" />
+						<input
+							type="search"
+							id="search-input"
+							placeholder="Explore Communities"
+						/>
 					</div>
-					<a class="search-btn">
+					<button id="search-btn">
 						<span
 							><img
 								src="images/logos/icons8-search-20.png"
-								alt=""
+								alt="search-logo"
 						/></span>
-					</a>
+					</button>
 				</div>
-				<div class="discover-content-container">
-					<div class="discover-content-container-left">
-						<a href="#">
-							<span><img src="" alt="" /></span>
-							<div class="">
-								<p>All</p>
-								<span>26524</span>
-							</div>
+				<a href="#" class="category-botton-980-container">
+					<div class="category-botton-980">
+						<span class="category-names"></span>
+						<i class="fa-solid fa-angle-down"></i>
+					</div>
+				</a>
+				<div class="category-modal modal-hidden">
+					<div class="category-modal-container">
+						<a
+							class="discover-server-bottom-left all-category"
+							onclick="filterProduct('all')"
+						>
+							<i class="fa-solid fa-compass"></i>
+							<span class="discover-server-bottom-btns">
+								All
+							</span>
+							<span class="server_count all-count"></span>
 						</a>
+						<a
+							class="discover-server-bottom-left"
+							onclick="filterProduct('gaming')"
+						>
+							<i class="fa-solid fa-gamepad"></i>
+							<span class="discover-server-bottom-btns">
+								Gaming
+							</span>
+							<span class="server_count"></span>
+						</a>
+						<a
+							class="discover-server-bottom-left"
+							onclick="filterProduct('entertainment')"
+						>
+							<i class="fa-solid fa-tv"></i>
+							<span class="discover-server-bottom-btns">
+								Entertainment
+							</span>
+							<span class="server_count"></span>
+						</a>
+						<a
+							class="discover-server-bottom-left"
+							onclick="filterProduct('education')"
+						>
+							<i class="fa-solid fa-graduation-cap"></i>
+							<span class="discover-server-bottom-btns">
+								Education
+							</span>
+							<span class="server_count"></span>
+						</a>
+						<a
+							class="discover-server-bottom-left"
+							onclick="filterProduct('science & tech')"
+						>
+							<i class="fa-solid fa-atom"></i>
+							<span class="discover-server-bottom-btns">
+								science & tech
+							</span>
+							<span class="server_count"></span>
+						</a>
+						<a
+							class="discover-server-bottom-left"
+							onclick="filterProduct('music')"
+						>
+							<i class="fa-solid fa-music"></i>
+							<span class="discover-server-bottom-btns">
+								Music
+							</span>
+							<span class="server_count"></span>
+						</a>
+					</div>
+				</div>
+				<div class="discover-bottom">
+					<div class="discover-bottom-container">
+						<div class="discover-bottom-container-left-container">
+							<a
+								class="discover-server-bottom-left"
+								onclick="filterProduct('all')"
+							>
+								<i class="fa-solid fa-compass"></i>
+								<span class="discover-server-bottom-btns">
+									All
+								</span>
+								<span class="server_count all-count"></span>
+							</a>
+
+							<a
+								class="discover-server-bottom-left"
+								onclick="filterProduct('gaming')"
+							>
+								<i class="fa-solid fa-gamepad"></i>
+								<span class="discover-server-bottom-btns">
+									Gaming
+								</span>
+								<span class="server_count"></span>
+							</a>
+							<a
+								class="discover-server-bottom-left"
+								onclick="filterProduct('entertainment')"
+							>
+								<i class="fa-solid fa-tv"></i>
+								<span class="discover-server-bottom-btns">
+									Entertainment
+								</span>
+								<span class="server_count"></span>
+							</a>
+							<a
+								class="discover-server-bottom-left"
+								onclick="filterProduct('education')"
+							>
+								<i class="fa-solid fa-graduation-cap"></i>
+								<span class="discover-server-bottom-btns">
+									Education
+								</span>
+								<span class="server_count"></span>
+							</a>
+							<a
+								class="discover-server-bottom-left"
+								onclick="filterProduct('science & tech')"
+							>
+								<i class="fa-solid fa-atom"></i>
+								<span class="discover-server-bottom-btns">
+									Science & tech
+								</span>
+								<span class="server_count"></span>
+							</a>
+							<a
+								class="discover-server-bottom-left"
+								onclick="filterProduct('music')"
+							>
+								<i class="fa-solid fa-music"></i>
+								<span class="discover-server-bottom-btns">
+									Music
+								</span>
+								<span class="server_count"></span>
+							</a>
+						</div>
+						<div class="discover-server-bottom-right">
+							<div class="result-found">
+								<span class="no-of-results"></span>
+								<span>Results Found</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

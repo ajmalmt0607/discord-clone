@@ -2,8 +2,12 @@
 	max-width: 1260px;
 	margin: 0 auto;
 }
-
-/* *********** */
+button {
+	background: none;
+}
+/*********************/
+/* DISCOVER SECTION */
+/*******************/
 .discover-blue-home {
 	background-image: url("../images/discovery-background.png");
 	min-height: 400px;
@@ -33,7 +37,9 @@
 	max-width: 1180px;
 	width: 90%;
 }
-
+.middle-overlay {
+	z-index: 1000;
+}
 .discover-blue-home .discord-right-background {
 	position: absolute;
 	visibility: visible;
@@ -42,6 +48,9 @@
 	width: 400px;
 	z-index: 1;
 }
+/*******************************/
+/* DISCOVER SPOTLIGHT SECTION */
+/******************************/
 .discover-blue-home .discover-spotlight {
 	display: flex;
 	flex-direction: column;
@@ -70,19 +79,26 @@
 	font-weight: 500;
 }
 
-/* ******************** */
-/* DISCOVER SECTION */
-
+/**********************/
+/* DISCOVER SERVER SECTION  */
+/*********************/
 #discover-server {
 	margin-bottom: 40px;
 	height: 52px;
 	margin-top: 50px;
 }
+
+/**********************/
+/* DISCOVER SEARCHBAR SECTION 1022px */
+/*********************/
 #discover-server .search-bar-container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 0 40px;
 	margin-bottom: 50px;
+	max-width: 1060px;
+	margin: 0 auto;
 }
 #discover-server .search-bar-container input {
 	padding: 16px;
@@ -103,14 +119,248 @@
 	background-color: #7b7a7a14;
 	width: 100%;
 }
-#discover-server .search-bar-container .search-btn {
+#discover-server .search-bar-container #search-btn {
 	background-color: #5865f2;
 	padding: 16px;
 	border-radius: 8px;
+	border: none;
+	cursor: pointer;
 }
-#discover-server .search-bar-container .search-btn span {
+
+.category-botton-980-container {
+	padding: 0 40px;
+	max-width: 940px;
+	margin: 12px auto 0;
+	display: none;
 }
-#discover-server .search-bar-container .search-btn span img {
+
+.category-botton-980 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 11px 12px;
+	border: 1px solid rgba(79, 84, 92, 0.6);
+	border-radius: 4px;
+}
+.category-botton-980-container {
+	position: relative;
+}
+/*********************************/
+/* CATEGORY BUTTON MODAL 1022px */
+/*******************************/
+
+.category-modal {
+	position: absolute;
+	z-index: 1000;
+	transition: transform 0.5s;
+	width: 100%;
+	margin-top: 15px;
+	padding: 0 40px;
+}
+.modal-hidden {
+	display: none;
+}
+.category-modal-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: #f2f2f2;
+	padding: 15px;
+	border-radius: 8px;
+	max-width: 880px;
+	margin: 0 auto;
+}
+.category-modal .discover-server-bottom-left {
+	max-width: 229px;
+}
+/******************************************/
+/* DISCOVER SERVER BOTTOM SECTION 1022px */
+/****************************************/
+
+.discover-bottom {
+	padding: 40px 40px;
+	margin: 0 auto;
+	max-width: 1060px;
+}
+
+.discover-bottom-container-left-container {
+	max-width: 280px;
+	width: 100%;
+}
+.discover-server-bottom-btns-container {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+.discover-server-bottom-left {
+	max-width: 272px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	border-radius: 4px;
+	padding: 11px 14px;
+	margin-right: 8px;
+	margin-bottom: 12px;
+}
+.discover-server-bottom-left:hover {
+	background-color: #f2f2f2;
+}
+.icon-compass {
+	color: hsl(240, 2%, 41%);
+}
+.discover-server-bottom-left .compass-black {
+	color: #5865f2;
+}
+.active {
+	background-color: #d3d4d7;
+	color: black;
+}
+
+.discover-server-bottom-btns {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	margin-left: 8px;
+	font-size: 15px;
+}
+.server_count {
+	font-size: 15px;
+}
+.discover-server-bottom-btns-icon {
+	width: 20px;
+}
+.discover-server-bottom-btns-right {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
+}
+
+.discover-server-bottom-right .hide {
+	display: none;
+}
+.discover-server-bottom-right {
+	max-width: 680px;
+	width: 100%;
+	font-size: 16px;
+}
+.result-found {
+	display: flex;
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+.result-found span {
+	margin-right: 5px;
+}
+
+.discover-bottom-container {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 20px;
+}
+.discover-server-bottom-content-box {
+	display: flex;
+	padding: 8px;
+	margin-bottom: 16px;
+	max-width: 696px;
+	min-height: 64px;
+	width: 100%;
+}
+.discover-server-bottom-content-box-left {
+	object-fit: fill;
+	max-width: 256px;
+	/* height: 144px; */
+	width: 100%;
+	border-radius: 8px;
+	margin-right: 16px;
+	overflow: hidden;
+}
+.discover-server-bottom-content-box-left-980 {
+	display: none;
+	max-width: 40px;
+	max-height: 40px;
+	border-radius: 8px;
+	border: none;
+	margin-right: 16px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.discover-server-bottom-content-box-left-980 img {
 	width: 100%;
 	display: block;
+}
+.discover-server-bottom-content-box-left img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.discover-server-bottom-content-box-right {
+	max-width: 408px;
+	width: 100%;
+}
+.discover-server-bottom-content-box-right-top {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+}
+.discover-server-bottom-content-box-right-top-logo {
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin-right: 8px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.discover-server-bottom-content-box-right-top-logo img {
+	width: 100%;
+	display: block;
+}
+.discover-server-bottom-content-box-right-top h6 {
+	font-size: 14px;
+}
+.discover-server-bottom-content-box-right p {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+.discover-server-bottom-content-box-right .online-members {
+	display: flex;
+	align-items: center;
+}
+.discover-server-bottom-content-box-right .online-members span {
+	font-size: 11px;
+	color: #67676c;
+}
+.discover-server-bottom-content-box-right .online-members .dot-icon {
+	height: 4px;
+	width: 4px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: auto 8px;
+	background-color: #67676c;
+}
+.verified-server {
+	display: flex;
+	align-items: center;
+	padding: 4px 8px;
+	margin-top: 24px;
+	border-radius: 4px;
+	background-color: #00000014;
+	width: 88px;
+}
+.verified-server .verified-icon {
+	display: inline-block;
+	width: 16px;
+}
+.verified-server .verified-icon img {
+	width: 100%;
+	display: block;
+}
+.verified-server span {
+	font-size: 11px;
+	margin-left: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
 }

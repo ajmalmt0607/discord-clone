@@ -1,0 +1,214 @@
+{
+	"data": [
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/662267976984297473/4798759e115d2500fef16347d578729a.jpg?size=512",
+			"logo": "images/discover/Midjourney-logo.jpg",
+			"title": "Midjourney",
+			"description": "The official server for Midjourney, a text-to-image AI where your imagination is the only limit.",
+			"online": "1,555,240",
+			"members": "19,463,024",
+			"verified": true,
+			"category": "entertainment"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/926691694680870982/75037c54266d71fc27eddb94b5eaf951.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/926691694680870982/a65c2b98282aa270b751541f3a48fce5.jpg?size=256",
+			"title": "Fusionist",
+			"description": "A scalable and sustainable Sci-Fi universe that fulfills all possible desires.",
+			"online": "6,688",
+			"members": "1,052,383",
+			"verified": false,
+			"category": "gaming"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/150074202727251969/9f2061d3ce6e72a2c0400e75faab5056.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/150074202727251969/c277d150bbb29b9fd44ca0cacb5a3e96.jpg?size=256",
+			"title": "Roblox",
+			"description": "The largest community-run Roblox server. Join for news, chat, LFG, events & more! For both Users and Creators. ✨",
+			"online": "174,248",
+			"members": "1,015,069",
+			"verified": true,
+			"category": "gaming"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/562762757905186828/e69c9585f8b23477c0626ac4a96f2794.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/562762757905186828/05d312e0df9dbae9d43273987a53a794.jpg?size=256",
+			"title": "RELL Games",
+			"description": "RELL Games, RELL Seas, Shinobi Life 2",
+			"online": "129,170",
+			"members": "797,105",
+			"verified": false,
+			"category": "gaming"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/802558747695120414/3f7603a796b276e2ebec7ddd2a609e48.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/802558747695120414/ce6b10c84bd64afea2de3d70f23b7ed3.jpg?size=256",
+			"title": "Era 🌴",
+			"description": "ERA is a gaming community, in which you are welcome to discuss any game!",
+			"online": "126,487",
+			"members": "837,036",
+			"verified": false,
+			"category": "education"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/469229972641284097/2b847803bb2cdcc1ca58011efd9954d0.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/469229972641284097/a_ce0c04642a8234b3521ae7caadb9e9b7.jpg?size=256",
+			"title": "Gartic",
+			"description": "The official Gartic server! We develop drawing games: Gartic Phone, Gartic.io, GarticBOT, Gartic Show, Gartic On Stream",
+			"online": "37,988",
+			"members": "593,334",
+			"verified": true,
+			"category": "education"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/267624335836053506/0ea813f39386016f046ae511a0409c31.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/267624335836053506/a_1516f72a493630ed411044020ef92671.jpg?size=256",
+			"title": "Python",
+			"description": "We're a large community focused around the Python programming language. We believe that anyone can learn to code.",
+			"online": "55,265",
+			"members": "390,552",
+			"verified": false,
+			"category": "education"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/890663529487687691/db2d11548013003cc08333dbc9b88e31.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/890663529487687691/a3885a606e1579aa2a39a80a826eb691.jpg?size=256",
+			"title": "TikTok Effect House",
+			"description": "Effect House is a powerful AR tool that makes it easy to create and publish high-quality augmented effects for TikTok",
+			"online": "5,995",
+			"members": "230,467",
+			"verified": true,
+			"category": "gaming"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/1046979304547954728/d0ac123bc0db716e100a5a3a24c62fa8.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/1046979304547954728/bbe5d6097255431300cfc18dd629b876.jpg?size=256",
+			"title": "LimeWire - create AI Images, Audio & Video",
+			"description": "Our active text-to-image AI community powers your journey to generate the best art, images, and design.",
+			"online": "87,039",
+			"members": "2,306,501",
+			"verified": true,
+			"category": "education"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/707230275175841915/2513ae894e752e941c195506fe056273.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/707230275175841915/36c8c90fb08f6c097d897b7a0fa15312.jpg?size=256",
+			"title": "Lofi Girl",
+			"description": "The friendliest community on Discord 🧡 Join now to meet amazing people from all around the world 🌎",
+			"online": "106,526",
+			"members": "918,263",
+			"verified": true,
+			"category": "music"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/253581140072464384/af19102423a07b2c0fd11752e610d006.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/253581140072464384/a_0ba0beecfa37af929f89ca0a1ef33af9.jpg?size=256",
+			"title": "Rainbow 6",
+			"description": "The Rainbow 6 Discord. Keep up with R6 game news, Siege esports, find teammates, and chat about all things Rainbow Six!",
+			"online": "190,880",
+			"members": "692,021",
+			"verified": true,
+			"category": "gaming"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/828370043867496531/8cb31f123d5ecef414ca52f2aa8c5534.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/828370043867496531/d5484137703574b52b67af0514943c22.jpg",
+			"title": "VALORANT LFG",
+			"description": "The VALORANT Looking for Group Discord server!",
+			"online": "196,803",
+			"members": "741,649",
+			"verified": false,
+			"category": "entertainment"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/575762611111592007/945eca3a69208cc873fc01252f813926.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/410537146672349205/e08afde7fdd157a976f617ee24b3dda6.jpg?size=256",
+			"title": "Axie Infinity",
+			"description": "Axies are fierce, fantasy pets that you can battle & collect!",
+			"online": "36,635",
+			"members": "606,238",
+			"verified": true,
+			"category": "entertainment"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/727557435363164240/779f2bab16e7f3bf69f505520b39a239.jpg?size=512",
+			"logo": "https://cdn.discordapp.com/icons/575762611111592007/47a5b47daf00aa3268f3eef67ea7736f.jpg?size=256",
+			"title": "FOGUETE PVP",
+			"description": "Servidor de FiveM focado em treinos.",
+			"online": "74,868",
+			"members": "595,898",
+			"verified": false,
+			"category": "entertainment"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/933959587462254612/1cf76cf7302138e2e3679f3a34deae7a.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/933959587462254612/0ff71e6fb69f4bfa9bb3fe66a2da06d1.jpg",
+			"title": "Shardeum",
+			"description": "Shardeum is the world's first EVM-based L1 which uses sharding to increase TPS with the addition of every new node.",
+			"online": "19,614",
+			"members": "607,404",
+			"verified": false,
+			"category": "science & tech"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/1076190214369853510/f52f3092029bf7cec9bd8a7d96a94514.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/1076190214369853510/9f93cfcbcbd1becd33ff6f4a3d80411b.jpg",
+			"title": "Adobe Firefly",
+			"description": "This is the Adobe FireFly Discord server. A place to connect with a community of fellow creators.",
+			"online": "24,132",
+			"members": "567,294",
+			"verified": true,
+			"category": "science & tech"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/715121965563772980/1ff2b1ffb031a899616db9526fe68a3b.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/715121965563772980/a_f57ecb02fac34b66b69e5a4dc7103c97.jpg",
+			"title": "Opera GX",
+			"description": "The official Discord server of the world's first gaming browser.",
+			"online": "60,890",
+			"members": "401,919",
+			"verified": true,
+			"category": "science & tech"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/947911971515293759/aaa0be3e70db4b697a1f70825ecf4129.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/947911971515293759/ee86fd1df20eb2be129f3cecfd4c3ae8.jpg",
+			"title": "Nibiru Chain",
+			"description": "The Web3 hub ushering in the next era of money. | Smart contracts, DeFi, RWAs, and more | https://linktr.ee/nibiruchain",
+			"online": "26,089",
+			"members": "443,244",
+			"verified": false,
+			"category": "science & tech"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/589413911304863746/7185f5a5a0c835a264e0310be8d8f729.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/589413911304863746/a_ca5ecd9ae0b50af5a9213582b0428b9e.jpg",
+			"title": "GIF SHARE 💎",
+			"description": "Royal Partners",
+			"online": "2,761",
+			"members": "259,098",
+			"verified": false,
+			"category": "music"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/444470893599784960/9547955d042d37ac131b11fa43094c7a.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/444470893599784960/b669cd9135939e8c49bba0ebb1ccf623.jpg",
+			"title": "Chill Corner",
+			"description": "Meet friendly people from all over the world. Active, non-toxic and fun!",
+			"online": "8,736",
+			"members": "246,980",
+			"verified": false,
+			"category": "music"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/418586876899885056/28e4e7f38f885c0d2a3f20a4f3030560.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/418586876899885056/a_945a518cee72726239957fb52480f0c5.jpg",
+			"title": "Willyrex! 🔥🦖",
+			"description": "Servidor oficial de Willyrex. Conoce gente y haz nuevos amigos aquí. ¡Lánzate a una nueva aventura con la comunidad!",
+			"online": "10,155",
+			"members": "316,068",
+			"verified": true,
+			"category": "music"
+		}
+	]
+}

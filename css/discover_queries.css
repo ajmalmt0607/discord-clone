@@ -1,0 +1,125 @@
+@media (max-width: 1356px) {
+	.discover-blue-home .discover-spotlight {
+		max-width: 600px;
+		line-height: 45px;
+	}
+	.discover-blue-home .discover-spotlight h1 {
+		font-size: 52px;
+	}
+	.discover-blue-home .discover-spotlight p {
+		margin-top: 0px;
+	}
+}
+@media (max-width: 1080px) {
+	#discover-server .search-bar-container {
+		max-width: 940px;
+	}
+	.discover-bottom-container-left-container {
+		max-width: 235px;
+	}
+	.discover-bottom-container {
+		justify-content: flex-start;
+	}
+	.discover-bottom-container {
+		max-width: 930px;
+	}
+	.discover-bottom {
+		max-width: 940px;
+	}
+}
+
+@media (max-width: 1022px) {
+	.category-botton-980-container {
+		display: block;
+	}
+	.discord-left-background {
+		display: none;
+	}
+	.discord-right-background {
+		display: none;
+	}
+	.discover-blue-home .discover-spotlight {
+		text-align: left;
+		margin: 0 0;
+		max-width: 900px;
+		padding: 0 50px;
+	}
+	.discover-blue-home .discover-spotlight h1 {
+		font-size: 30px;
+		font-weight: 900;
+	}
+	.discover-blue-home .discover-spotlight {
+		align-items: flex-start;
+	}
+	.discover-bottom-container-left-container {
+		display: none;
+	}
+	.discover-server-bottom-content-box-left {
+		display: none;
+	}
+	.result-found {
+		display: none;
+	}
+	.discover-server-bottom-content-box-right-top-logo {
+		display: none;
+	}
+	.verified-server {
+		display: none;
+	}
+	.discover-server-bottom-content-box-right {
+		max-width: 980px;
+		width: 100%;
+	}
+	.discover-server-bottom-content-box-left-980 {
+		display: block;
+	}
+	.category-botton-980-container {
+		text-decoration: none;
+		cursor: pointer;
+		color: black;
+	}
+	#discover-server {
+		margin-top: 20px;
+	}
+	.category-names {
+		font-size: 13px;
+	}
+}
+@media (max-width: 768px) {
+	.discover-blue-home .discover-spotlight {
+		max-width: 640px;
+	}
+	.discover-blue-home .discover-spotlight h1 {
+		line-height: 1;
+	}
+	#discover-server .search-bar-container {
+		padding: 0 24px;
+	}
+	.category-botton-980-container {
+		padding: 0 24px;
+	}
+	.discover-bottom {
+		padding: 25px 24px;
+	}
+	#discover-server .search-bar-input-container {
+		margin-right: 16px;
+		padding-right: 10px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	#discover-server .search-bar-container input {
+		padding: 12px;
+	}
+	#discover-server .search-bar-container #search-btn {
+		padding: 10px;
+	}
+}
+
+@media (max-width: 540px) {
+}
+@media (max-width: 480px) {
+	.discover-blue-home .discover-spotlight p {
+		line-height: 1;
+		margin-top: 12px;
+	}
+}
