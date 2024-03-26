@@ -136,7 +136,7 @@ button {
 #clear-search {
 	display: none;
 	font-size: 20px;
-	background-color: #7b7a7a14;
+	background-color: #f8f8f814;
 }
 
 #clear-search.active {

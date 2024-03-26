@@ -160,6 +160,7 @@ fetch("data/discord_servers.json")
 ////////////////////////////
 function clearSearchInput() {
 	document.getElementById("search-input").value = "";
+	document.getElementById("clear-search").classList.remove("active");
 }
 const searchInput = document.getElementById("search-input");
 const clearSearch = document.getElementById("clear-search");
@@ -258,9 +259,9 @@ const searcher = () => {
 
 search_btn.addEventListener("click", searcher);
 
-///////////////////////
+///////////////////////////////
 // Modal window For Responsive
-//////////////////////
+//////////////////////////////
 
 const categoryModal_element = document.querySelector(".category-modal");
 const categoryButton = document.querySelector(".category-botton-980-container");
@@ -304,31 +305,33 @@ window.addEventListener("resize", function (e) {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-	// Select the span element inside the category-botton-980
 	const spanElement = document.querySelector(
 		".category-botton-980 .category-names"
 	);
-	// Set the initial text content to "Categories"
+
 	spanElement.textContent = "Categories";
 
-	// Select all button elements inside the category-modal
 	const buttons = document.querySelectorAll(
 		".category-modal .discover-server-bottom-btns"
 	);
 
-	// Add click event listener to each button
 	buttons.forEach((button) => {
 		button.addEventListener("click", function () {
-			// Get the text content of the clicked button
 			const buttonText = this.textContent.trim();
-			// Check if the clicked button is the "All" button
+
 			if (buttonText === "All") {
-				// Set the span element's text content to "Categories"
 				spanElement.textContent = "Categories";
 			} else {
-				// Append the button text to the span element
 				spanElement.textContent = buttonText;
 			}
 		});
 	});
+});
+document.addEventListener("click", function (event) {
+	if (
+		!categoryModal_element.contains(event.target) &&
+		!categoryButton.contains(event.target)
+	) {
+		categoryModal_element.classList.add("modal-hidden");
+	}
 });

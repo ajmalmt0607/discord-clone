@@ -62,7 +62,7 @@
 		},
 		{
 			"server_image": "https://cdn.discordapp.com/discovery-splashes/267624335836053506/0ea813f39386016f046ae511a0409c31.jpg?size=512",
-			"logo": "https://cdn.discordapp.com/icons/267624335836053506/a_1516f72a493630ed411044020ef92671.jpg?size=256",
+			"logo": "https://cdn.discordapp.com/icons/267624335836053506/d941fb00e6dc9b3b7e900b73e5157b86.jpg",
 			"title": "Python",
 			"description": "We're a large community focused around the Python programming language. We believe that anyone can learn to code.",
 			"online": "55,265",
@@ -209,6 +209,56 @@
 			"members": "316,068",
 			"verified": true,
 			"category": "music"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/661257119588417627/2a1b2c2968e281f07d1c304e7c6da346.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/661257119588417627/a_99e346917c02ab43552cb663351987ab.jpg",
+			"title": "World of Coding | Programming, Code, Linux.",
+			"description": "Our active text-to-image AI community powers your journey to generate the best art, images, and design.",
+			"online": "87,039",
+			"members": "2,306,501",
+			"verified": true,
+			"category": "education"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/900302240559018015/f8a8f2bcdac4ed5c70764686babf25e5.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/900302240559018015/314f01f30776818581ca0f747e918d70.jpg",
+			"title": "Practical Python",
+			"description": "A Python programming community. Inspired, and built for learners and developers.",
+			"online": "87,039",
+			"members": "2,306,501",
+			"verified": true,
+			"category": "education"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/772505616680878080/1f44ccfb26f796929e8e76bbd57fc4b6.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/772505616680878080/a_72f59d25fc936a3dc557634a9c5fe9e0.jpg",
+			"title": "Pygame Community",
+			"description": "A Python programming community. Inspired, and built for learners and developers.",
+			"online": "87,039",
+			"members": "2,306,501",
+			"verified": true,
+			"category": "science & tech"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/881207955029110855/c826b6149d856ab8fd11101b8605038c.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/881207955029110855/a_c6f5a780270ff228c439dc96f2cebdbc.jpg",
+			"title": "Pycord",
+			"description": "The library for building Discord bots in Python.",
+			"online": "87,039",
+			"members": "2,306,501",
+			"verified": true,
+			"category": "science & tech"
+		},
+		{
+			"server_image": "https://cdn.discordapp.com/discovery-splashes/473161189120147456/30f266e0b83874ba19d8665ca9563b2c.jpg?size=2048",
+			"logo": "https://cdn.discordapp.com/icons/473161189120147456/6df5362569682647b4b7b0bb631c1368.jpg",
+			"title": "Engineer Man",
+			"description": "Linux, Python, JavaScript, coding challenges, golfing contests, and much more brought to you by Engineer Man.",
+			"online": "87,039",
+			"members": "2,306,501",
+			"verified": false,
+			"category": "science & tech"
 		}
 	]
 }
