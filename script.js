@@ -181,7 +181,7 @@ clearSearch.addEventListener("click", function (e) {
 /////////////////////////////
 // Filter servers by category
 /////////////////////////////
-let selectedCategory = "all"; // Variable to store the currently selected category
+let selectedCategory = "all";
 
 function filterProduct(value) {
 	clearSearchInput();
@@ -206,21 +206,17 @@ function filterProduct(value) {
 		}
 	});
 
-	selectedCategory = value; // Update the selected category
+	selectedCategory = value;
 
 	category_attribute.forEach((element) => {
-		//display all cards on 'all' button click
 		if (value == "all") {
 			element.classList.remove("hide");
 		} else {
-			//Check if element contains category class
 			var attributevalue = element.getAttribute("data-category");
 			if (attributevalue == value) {
 				console.log(value);
-				//display element based on category
 				element.classList.remove("hide");
 			} else {
-				//hide other elements
 				element.classList.add("hide");
 			}
 		}
