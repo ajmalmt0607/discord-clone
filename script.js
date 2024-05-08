@@ -331,3 +331,82 @@ document.addEventListener("click", function (event) {
 		categoryModal_element.classList.add("modal-hidden");
 	}
 });
+
+//////////////////////////////
+function togglePopup() {
+	var button = document.querySelector(".bottom-pop-up-btn");
+	var popupContainer = document.getElementById("popup-container");
+
+	// Move the button down and hide it
+	button.style.transition = "transform 0.5s ease-out";
+	button.style.transform = "translateY(100px)";
+	button.style.opacity = "0";
+
+	// Show the popup after a short delay
+	setTimeout(function () {
+		popupContainer.style.display = "block";
+	}, 300); // Adjust the delay as needed
+}
+
+function closePopup() {
+	var popupContainer = document.getElementById("popup-container");
+
+	// Hide the popup
+	popupContainer.style.display = "none";
+
+	var button = document.querySelector(".bottom-pop-up-btn");
+
+	// Move the button back up and show it
+	button.style.transition = "transform 0.5s ease-in";
+	button.style.transform = "translateY(0)";
+	button.style.opacity = "1";
+}
+
+////////////////
+function searchFunction() {
+	const searchInput = document
+		.getElementById("popup-search-input")
+		.value.trim()
+		.toLowerCase();
+	const searchResultContainer = document.getElementById(
+		"search-result-container"
+	);
+	searchResultContainer.innerHTML = "";
+
+	if (searchInput.length > 0) {
+		// Check if search input is not empty
+		fetch("./data/search_data.json")
+			.then((response) => response.json())
+			.then((jsonData) => {
+				const matchedItems = [];
+				jsonData.items.forEach((item) => {
+					if (item.toLowerCase().includes(searchInput)) {
+						matchedItems.push(item);
+					}
+				});
+				if (matchedItems.length > 0) {
+					// Display matched items if found
+					const uniqueMatchedItems = [...new Set(matchedItems)]; // Remove duplicates
+					uniqueMatchedItems.forEach((item, index) => {
+						const listItem = document.createElement("li");
+						listItem.textContent = `${index + 1}. ${item}`;
+						listItem.classList.add("search-result-item"); // Add class name to <li>
+						searchResultContainer.appendChild(listItem);
+					});
+				} else {
+					// Display message if no matches found
+					const noResultItem = document.createElement("li");
+					noResultItem.textContent = "No matching items found.";
+					noResultItem.classList.add("search-result-item"); // Add class name to <li>
+					searchResultContainer.appendChild(noResultItem);
+				}
+			})
+			.catch((error) => console.error("Error fetching data:", error));
+	} else {
+		// Display message if search input is empty
+		const emptyInputItem = document.createElement("li");
+		emptyInputItem.textContent = "Please enter a search term.";
+		emptyInputItem.classList.add("search-result-item"); // Add class name to <li>
+		searchResultContainer.appendChild(emptyInputItem);
+	}
+}

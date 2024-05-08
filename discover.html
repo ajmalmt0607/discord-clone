@@ -290,6 +290,39 @@
 					</div>
 				</div>
 			</div>
+			<!-- //// -->
+			<div class="bottom-pop-up">
+				<button class="bottom-pop-up-btn" onclick="togglePopup()">
+					<img
+						src="./images/discover/icons8-question-mark-32.png"
+						alt=""
+					/>Help
+				</button>
+			</div>
+			<div class="popup-container" id="popup-container">
+				<div class="pop-up-top">
+					<div class="popup-container-top">
+						<span>Help</span>
+					</div>
+					<div class="minus-con">
+						<img
+							src="./images/discover/icons8-minus-24.png"
+							alt=""
+							onclick="closePopup()"
+						/>
+					</div>
+				</div>
+				<div class="pop-up-bottom">
+					<input
+						type="search"
+						id="popup-search-input"
+						placeholder="Search..."
+					/>
+					<button onclick="searchFunction()">Search</button>
+
+					<ul id="search-result-container"></ul>
+				</div>
+			</div>
 		</section>
 		<script src="script.js"></script>
 	</body>
